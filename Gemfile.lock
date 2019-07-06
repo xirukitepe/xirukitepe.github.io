@@ -59,11 +59,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (= 1.17.1)
+  bundler (= 2.0.1)
   ffi (>= 1.9.24)
   jekyll (>= 3.6.3)
   jekyll-feed (~> 0.6)
   tzinfo-data
 
 BUNDLED WITH
-   1.17.1
+   2.0.1
