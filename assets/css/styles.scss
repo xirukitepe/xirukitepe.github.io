@@ -24,8 +24,20 @@ main {
 //   }
 // }
 
+nav ul a {
+  color: #e63a6d;
+}
+
+.brand-logo {
+  img {
+    max-width: 300px;
+    height: 45px;
+    margin-top: 10px;
+  }
+}
+
 .nav-wrapper {
-  background-color: #3DC19D !important;
+  background-color: #fff !important;
   font-weight: bold;
 }
 
