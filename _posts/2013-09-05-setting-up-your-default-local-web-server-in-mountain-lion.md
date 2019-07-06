@@ -61,7 +61,6 @@ tags: [osx, mac, apache]
 	<b>To</b> access your Sites folder, go to http://localhost/~username/
 </p>
 
-
 <br/>
 <p><b>Now you have your local web server running! Congratulations!</b></p>
 

@@ -95,11 +95,9 @@ tags: [rubyonrails, ruby, programming, web]
 	</ul>
 </p>
 
-
 <h2>A sense of patience, fun and hardwork</h2>
 <p>It is clear that <i>"Nothing is easy for the first time"</i>. It's not as easy as pie. There's <a href="http://www.metrolyrics.com/nothing-like-the-1st-time-lyrics-katy-perry.html">nothing like the first time</a>, so you have to be more patient and hardworking. Learning is fun and it never stops. In this <a href="http://railsforum.com/topic/224-hi-im-xiruki/">Rails Forum post</a>, I posted a little bit about my first impression with RAILS. Hope you will learn something from there.</p>
 <p></p>
-
 
 <!-- Twitter -->
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
