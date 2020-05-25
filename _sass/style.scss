@@ -66,6 +66,7 @@ pre {
   background-position: center center;
   min-height: 220px;
   position: relative;
+  padding: 20px;
   @include media-query($on-palm) {
     min-height: 150px;
   }
@@ -73,7 +74,7 @@ pre {
   img {
     display: block;
     margin: 0 auto;
-    height: 200px;
+    height: auto;
   }
  }
 
@@ -111,6 +112,7 @@ pre {
 .link a {
     display: inline-block;
     color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
     text-align: center;
     padding: 2px 16px;
     text-decoration: none;
