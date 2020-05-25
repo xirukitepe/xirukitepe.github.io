@@ -1,56 +1,9 @@
-<footer class="site-footer page-footer">
-  <div class="container">
+<footer>
+<div class="container">
     <div class="row">
-      <div class="col l6 s12">
-        <ul class="contact-list">
-          <li>
-          {% if site.author %}
-            {{ site.author | escape }}
-          {% else %}
-            {{ site.title | escape }}
-          {% endif %}
-          </li>
-          <!-- {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          {% endif %} -->
-          {% if site.email %}
-            <li>
-              <a href="mailto:{{ site.email }}"><span class="icon"><i class="small material-icons">email</i></span><span class="username"> {{ site.email }}</span></a>
-            </li>
-          {% endif %}
-        </ul>
-      </div>
-      <div class="col l4 s12">
-        <!-- <h5 class="white-text">Links</h5> -->
-        <ul class="contact-list">
-          {% if site.github_username %}
-            <li>
-              {% include icon-github.html username=site.github_username %}
-            </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-            <li>
-              {% include icon-twitter.html username=site.twitter_username %}
-            </li>
-          {% endif %}
-          <!-- {% if site.email %}
-            <li>
-              <a href="mailto:{{ site.email }}"><span class="icon"><i class="small material-icons">email</i></span><span class="username"> {{ site.email }}</span></a>
-            </li>
-          {% endif %} -->
-        </ul>
-      </div>
-      <div class="col l3">
-        <p>{{ site.description | escape }}</p>
-      </div>
-    </div>
-  </div>
-  <!-- <div class="footer-copyright">
-    <div class="container">
-    © 2019 Copyright Text
-    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-    </div>
-  </div> -->
+            <div class="four columns">{{site.title}}</div>
+            <div class="four columns">Designed by <a href="http://webjeda.com">Webjeda</a></div>
+            <div class="four columns">All rights reserved</div>
+        </div>
+</div>
 </footer>
-
