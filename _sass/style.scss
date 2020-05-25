@@ -28,12 +28,10 @@ body {
 
 }
 
-
 /* Images */
 img {
     max-width: 100%;
 }
-
 
 /**
  * Code formatting
@@ -48,7 +46,7 @@ code {
 
 code {
     padding: 1px 5px;
-    
+
 }
 
 pre {
@@ -61,9 +59,6 @@ pre {
     }
 }
 
-
-
-
 /* Main header */
 .header {
   background: #37c376;
@@ -72,8 +67,14 @@ pre {
   min-height: 220px;
   position: relative;
   @include media-query($on-palm) {
-      min-height: 150px;
-    }
+    min-height: 150px;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+  }
  }
 
 /* Main title */
@@ -104,7 +105,7 @@ pre {
     float: left;
     margin: 0;
     border-right: 1px solid rgba(255, 255, 255, 0.15);
-   
+
 }
 
 .link a {
@@ -168,7 +169,7 @@ pre {
 }
 .news-piece-1 {
     height: 350px;
-    
+
 }
 .news-piece-2 {
    height: 265px;
@@ -208,7 +209,7 @@ pre {
 @media (min-width: 550px) {
 .eight.columns.news-piece{
     width: 66.66666%;
-    
+
 }
 
 .four.columns.news-piece {
@@ -245,7 +246,7 @@ pre {
             font-size: 130%;
     }
     &:before {
-      content: open-quote;  
+      content: open-quote;
 
     }
     &:after{
@@ -261,8 +262,8 @@ pre {
 .bg {
     box-shadow: 0 0 4px #ddd;
      background: #fbff0b; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #fbff0b , #DD2476); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #fbff0b , #DD2476); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to left, #ffffff , #fdfdfd); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffffff , #fdfdfd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .border {
@@ -297,7 +298,7 @@ pre {
     background-size: cover;
     margin-bottom: 1em;
     @include media-query($on-palm) {
-       height: 200px; 
+       height: 200px;
     }
 }
 
@@ -306,13 +307,15 @@ pre {
     font-weight: 600;
 }
 
-
 /* Footer*/
 footer {
-    background-color: black;
-    color: #eee;
+    background-color: #fdfdfd;
+    color: #000000;
     text-align: center;
-
+    font-size: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 /* Add class="video" to video embeds */
 .video {
